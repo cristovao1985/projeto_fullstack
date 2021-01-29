@@ -1,0 +1,9 @@
+F:\Projetos\Angular\projeto_fullstack\api\database\bin\Debug\netcoreapp2.1\database.deps.json
+F:\Projetos\Angular\projeto_fullstack\api\database\bin\Debug\netcoreapp2.1\database.dll
+F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp2.1\database.csproj.CoreCompileInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp2.1\database.AssemblyInfoInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp2.1\database.AssemblyInfo.cs
+F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp2.1\database.csprojAssemblyReference.cache
+F:\Projetos\Angular\projeto_fullstack\api\database\bin\Debug\netcoreapp2.1\database.pdb
+F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp2.1\database.dll
+F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp2.1\database.pdb

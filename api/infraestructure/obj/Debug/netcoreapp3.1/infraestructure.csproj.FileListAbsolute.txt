@@ -1,0 +1,16 @@
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\domain.dll
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\obj\Debug\netcoreapp3.1\infraestructure.csprojAssemblyReference.cache
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\obj\Debug\netcoreapp3.1\infraestructure.AssemblyInfoInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\obj\Debug\netcoreapp3.1\infraestructure.AssemblyInfo.cs
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\infraestructure.deps.json
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\infraestructure.dll
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\infraestructure.pdb
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\database.dll
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\helper.dll
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\database.pdb
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\domain.pdb
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\bin\Debug\netcoreapp3.1\helper.pdb
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\obj\Debug\netcoreapp3.1\infraestructure.csproj.CoreCompileInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\obj\Debug\netcoreapp3.1\infraestructure.csproj.CopyComplete
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\obj\Debug\netcoreapp3.1\infraestructure.dll
+F:\Projetos\Angular\projeto_fullstack\api\infraestructure\obj\Debug\netcoreapp3.1\infraestructure.pdb

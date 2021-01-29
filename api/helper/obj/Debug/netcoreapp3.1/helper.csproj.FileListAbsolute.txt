@@ -1,0 +1,12 @@
+F:\Projetos\Angular\projeto_fullstack\api\helper\bin\Debug\netcoreapp3.1\helper.deps.json
+F:\Projetos\Angular\projeto_fullstack\api\helper\bin\Debug\netcoreapp3.1\helper.dll
+F:\Projetos\Angular\projeto_fullstack\api\helper\bin\Debug\netcoreapp3.1\helper.pdb
+F:\Projetos\Angular\projeto_fullstack\api\helper\bin\Debug\netcoreapp3.1\domain.dll
+F:\Projetos\Angular\projeto_fullstack\api\helper\bin\Debug\netcoreapp3.1\domain.pdb
+F:\Projetos\Angular\projeto_fullstack\api\helper\obj\Debug\netcoreapp3.1\helper.csprojAssemblyReference.cache
+F:\Projetos\Angular\projeto_fullstack\api\helper\obj\Debug\netcoreapp3.1\helper.AssemblyInfoInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\helper\obj\Debug\netcoreapp3.1\helper.AssemblyInfo.cs
+F:\Projetos\Angular\projeto_fullstack\api\helper\obj\Debug\netcoreapp3.1\helper.csproj.CoreCompileInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\helper\obj\Debug\netcoreapp3.1\helper.csproj.CopyComplete
+F:\Projetos\Angular\projeto_fullstack\api\helper\obj\Debug\netcoreapp3.1\helper.dll
+F:\Projetos\Angular\projeto_fullstack\api\helper\obj\Debug\netcoreapp3.1\helper.pdb

@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\infraestructure\\infraestructure.csproj": {}
+  },
+  "projects": {
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\database\\database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\database\\database.csproj",
+        "projectName": "database",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\database\\database.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\domain.csproj",
+        "projectName": "domain",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\domain.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\helper\\helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\helper\\helper.csproj",
+        "projectName": "helper",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\helper\\helper.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\domain.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\infraestructure\\infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\infraestructure\\infraestructure.csproj",
+        "projectName": "infraestructure",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\infraestructure\\infraestructure.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\database\\database.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\database\\database.csproj"
+              },
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\domain.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\domain\\domain.csproj"
+              },
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\helper\\helper.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\helper\\helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

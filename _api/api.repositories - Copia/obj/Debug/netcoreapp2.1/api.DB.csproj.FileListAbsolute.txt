@@ -1,0 +1,4 @@
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories - Copia\obj\Debug\netcoreapp2.1\api.DB.csprojAssemblyReference.cache
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories - Copia\obj\Debug\netcoreapp2.1\api.DB.AssemblyInfoInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories - Copia\obj\Debug\netcoreapp2.1\api.DB.AssemblyInfo.cs
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories - Copia\obj\Debug\netcoreapp2.1\api.DB.csproj.CoreCompileInputs.cache

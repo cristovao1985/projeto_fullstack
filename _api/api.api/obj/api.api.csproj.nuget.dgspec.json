@@ -1,0 +1,420 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.api\\api.api.csproj": {}
+  },
+  "projects": {
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.api\\api.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.api\\api.api.csproj",
+        "projectName": "api.api",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.api\\api.api.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj"
+              },
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.services\\api.services.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.services\\api.services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj",
+        "projectName": "api.domain",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\api.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\api.Helper.csproj",
+        "projectName": "api.Helper",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\api.Helper.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.repositories\\api.repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.repositories\\api.repositories.csproj",
+        "projectName": "api.repositories",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.repositories\\api.repositories.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.domain\\api.domain.csproj"
+              },
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\api.Helper.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\api.Helper.csproj"
+              },
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\DataBase\\DataBase.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\DataBase\\DataBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.services\\api.services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.services\\api.services.csproj",
+        "projectName": "api.services",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.services\\api.services.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\api.Helper.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.Helper\\api.Helper.csproj"
+              },
+              "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.repositories\\api.repositories.csproj": {
+                "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\api.repositories\\api.repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projetos\\Angular\\projeto_fullstack\\api\\DataBase\\DataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\DataBase\\DataBase.csproj",
+        "projectName": "DataBase",
+        "projectPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\cristovao\\.nuget\\packages\\",
+        "outputPath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cristovao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

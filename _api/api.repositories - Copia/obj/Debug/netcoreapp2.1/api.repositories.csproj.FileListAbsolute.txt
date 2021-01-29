@@ -1,0 +1,12 @@
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\bin\Debug\netcoreapp2.1\api.repositories.deps.json
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\bin\Debug\netcoreapp2.1\api.repositories.dll
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\bin\Debug\netcoreapp2.1\api.repositories.pdb
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\bin\Debug\netcoreapp2.1\api.domain.dll
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\bin\Debug\netcoreapp2.1\api.domain.pdb
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\obj\Debug\netcoreapp2.1\api.repositories.csprojAssemblyReference.cache
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\obj\Debug\netcoreapp2.1\api.repositories.AssemblyInfoInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\obj\Debug\netcoreapp2.1\api.repositories.AssemblyInfo.cs
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\obj\Debug\netcoreapp2.1\api.repositories.csproj.CoreCompileInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\obj\Debug\netcoreapp2.1\api.repositories.csproj.CopyComplete
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\obj\Debug\netcoreapp2.1\api.repositories.dll
+F:\Projetos\Angular\projeto_fullstack\api\api.repositories\obj\Debug\netcoreapp2.1\api.repositories.pdb

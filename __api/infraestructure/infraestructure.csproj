@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\database\database.csproj" />
+    <ProjectReference Include="..\domain\domain.csproj" />
+    <ProjectReference Include="..\helpers\helpers.csproj" />
+    <ProjectReference Include="..\interface\interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

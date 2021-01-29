@@ -1,0 +1,12 @@
+F:\Projetos\Angular\projeto_fullstack\api\interface\bin\Debug\netcoreapp2.1\interfaces.deps.json
+F:\Projetos\Angular\projeto_fullstack\api\interface\bin\Debug\netcoreapp2.1\interfaces.dll
+F:\Projetos\Angular\projeto_fullstack\api\interface\bin\Debug\netcoreapp2.1\interfaces.pdb
+F:\Projetos\Angular\projeto_fullstack\api\interface\bin\Debug\netcoreapp2.1\domain.dll
+F:\Projetos\Angular\projeto_fullstack\api\interface\bin\Debug\netcoreapp2.1\domain.pdb
+F:\Projetos\Angular\projeto_fullstack\api\interface\obj\Debug\netcoreapp2.1\interfaces.csprojAssemblyReference.cache
+F:\Projetos\Angular\projeto_fullstack\api\interface\obj\Debug\netcoreapp2.1\interfaces.csproj.CoreCompileInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\interface\obj\Debug\netcoreapp2.1\interfaces.AssemblyInfoInputs.cache
+F:\Projetos\Angular\projeto_fullstack\api\interface\obj\Debug\netcoreapp2.1\interfaces.AssemblyInfo.cs
+F:\Projetos\Angular\projeto_fullstack\api\interface\obj\Debug\netcoreapp2.1\interfaces.csproj.CopyComplete
+F:\Projetos\Angular\projeto_fullstack\api\interface\obj\Debug\netcoreapp2.1\interfaces.dll
+F:\Projetos\Angular\projeto_fullstack\api\interface\obj\Debug\netcoreapp2.1\interfaces.pdb
