@@ -9,6 +9,7 @@ namespace domain.Repositories
     {
 
         IEnumerable<Product> list();
+        Result insert(Product product);
         Product get(int id);
         Result delete(int id);
         Result update(Product product);

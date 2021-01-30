@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k46ti5y/DQcJG6o/gvz/iUTw0XQs0eOUjDd7x7QyaV5I8ugHhDzn94vNVqMspHHk3n2PKAJi1rz8PvkEXMoUSg==",
+  "dgSpecHash": "/mWX6C30iP+Mpg3TWpZFLAWl9D5BomhK0rhVK7lK4UV5umM5FiObg9I9ZjDIcFrIguO/em+abInJFQqjV5upBw==",
   "success": true,
   "projectFilePath": "F:\\Projetos\\Angular\\projeto_fullstack\\api\\database\\database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cristovao\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
-    "C:\\Users\\cristovao\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
-    "C:\\Users\\cristovao\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\cristovao\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\cristovao\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\cristovao\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\cristovao\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\cristovao\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

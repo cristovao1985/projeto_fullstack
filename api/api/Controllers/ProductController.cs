@@ -47,8 +47,17 @@ namespace api.Controllers
 
         // POST api/<ProductController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public JsonResult Post([FromBody] Product product)
         {
+            if(product != null)
+            {
+                var result = _productService.insert(product);
+                return new JsonResult(result);
+            }
+            else
+            {
+                return new JsonResult( new Result { message = "Produto em formatro inválido", success = false });
+            }
         }
 
         // PUT api/<ProductController>/5

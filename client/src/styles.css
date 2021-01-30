@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.navbar{
+    background-color:#f3f3f3;
+    height: 32px;
+    align-items: center;
+    border-radius: 3px;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn-danger-outline{
+    color: #ea1d2c;
+    background-color: transparent;
+    border-color: #ea1d2c;
+    border-width: 0.1px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: .25rem;
+    cursor: pointer;
+}
+
+.btn-danger{
+    color: #FFFFFF;
+    background-color: #ea1d2c;
+    border-color: #ea1d2c;
+    border-width: 0.1px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: .25rem;
+    cursor: pointer;
+
+}
+
+.a{
+    font-size: 16px;
+}
+
+.container{
+margin: 10px;
+background-color: #f5f3f4;
+justify-content: center;
+align-items: center;
+}
+
+
+.card{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    flex-direction: row;
+}
+.input{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 5px;
+    padding: 10px;
+}
+
+.table{
+    align-items: center;
+    justify-content: center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

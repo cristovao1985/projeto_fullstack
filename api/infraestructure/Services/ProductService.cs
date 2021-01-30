@@ -27,6 +27,11 @@ namespace infraestructure.Services
             
         }
 
+        public Result insert(Product product)
+        {
+            return _productRepository.insert(product);
+        }
+
         public IEnumerable<Product> list()
         {
             return _productRepository.list();

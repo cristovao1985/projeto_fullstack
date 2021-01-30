@@ -60,6 +60,44 @@ namespace infraestructure.Repositories
             }
         }
 
+        public Result insert(Product product)
+        {
+            try
+            {
+                using (var conn = this._connection.sqlConnection())
+                {
+
+                    conn.Execute(@"INSERT INTO [dbo].[products]
+                   ([name]
+                   ,[description]
+                   ,[bar_code]
+                   ,[value]
+                   ,[active])
+                    VALUES(
+                    @name,
+                    @description, 
+                    @bar_code,
+                    @value, 
+                    @active)",
+                    new
+                    {
+                        @id = product.id,
+                        @name = product.name,
+                        @description = product.description,
+                        @bar_code = product.bar_code,
+                        @value = product.value,
+                        @active = product.active
+                    });
+                    return new Result { message = "Produto inserido com sucesso!", success = true };
+                };
+            }
+            catch (Exception ex)
+            {
+
+                return new Result { message = $"Não foi possível inserir o produto", success = false };
+            }
+        }
+
         public IEnumerable<Product> list()
         {
             try

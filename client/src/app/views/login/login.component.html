@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>Login</h1>
+    <div class="card sm-8">
+        <form>
+            <div>
+                <label for="email">Username</label><br>
+                <input name="username" [(ngModel)]="user.Username" class="input" type="text"
+                    placeholder="Type your Username">
+            </div>
+            <div>
+                <label for="email">Password</label><br>
+                <input name="password" [(ngModel)]="user.Password" class="input" type="password"
+                    placeholder="Type your Password">
+            </div>
+            <div>
+                <button type="submit" class="btn-danger-outline" name="action" (click)="login()">Login</button>
+            </div>
+            <div *ngIf="loginSuccessfull !=null  && !loginSuccessfull">
+                <p>User not found</p>
+            </div>
+        </form>
+    </div>
+
+
+</div>

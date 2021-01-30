@@ -4,6 +4,6 @@ F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp3.1\datab
 F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp3.1\database.AssemblyInfoInputs.cache
 F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp3.1\database.AssemblyInfo.cs
 F:\Projetos\Angular\projeto_fullstack\api\database\bin\Debug\netcoreapp3.1\database.pdb
-F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp3.1\database.csproj.CoreCompileInputs.cache
 F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp3.1\database.dll
 F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp3.1\database.pdb
+F:\Projetos\Angular\projeto_fullstack\api\database\obj\Debug\netcoreapp3.1\database.csproj.CoreCompileInputs.cache
