@@ -8,12 +8,14 @@ import { FormsModule } from '@angular/forms';
 import { AuthService } from './auth/auth.service';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterService } from './guards/router.service';
+import { ProductComponent } from './views/products/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     LoginComponent,
+    ProductComponent,
 
   ],
   imports: [

@@ -1,6 +1,7 @@
 
-import { Injectable, EventEmitter } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
+import { Product } from '../models/Product';
 import { User } from '../models/User';
 
 @Injectable({
@@ -8,26 +9,29 @@ import { User } from '../models/User';
 })
 export class ProductService {
 
-  private baseUrl = "http://localhost:5000/api/";
+  private baseUrl = "http://localhost:5000/api";
 
-
-  //public showMenuEmitter: EventEmitter<boolean> = new EventEmitter<boolean>();
   constructor(private router: Router) { }
 
-  async getAllProducts() {
+  async getAllProducts(): Promise<Array<Product>> {
 
-    await fetch(`${this.baseUrl}/login`, {
+    return await fetch(`${this.baseUrl}/product`, {
       method: "GET",
-
-    }).then(async res => {
-      const result = await res.json();
-
-
+    }).then(res => {
+      return res.json();
     }).catch(erro => {
-
-
+      return null
     })
+  }
 
-
+  async insertProduct(product: Product): Promise<any> {
+    return await fetch(`${this.baseUrl}/product`, {
+      method: "POST",
+      body: JSON.stringify(product)
+    }).then(res => {
+      return res.json();
+    }).catch(erro => {
+      return erro
+    })
   }
 }

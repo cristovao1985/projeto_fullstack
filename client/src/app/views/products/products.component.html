@@ -3,8 +3,8 @@
         <h3>PRODUCTS</h3>
         <div class="row">
             <form>
-                <input class="input" type="text">
-                <button class="btn-danger-outline">Search</button>
+                <input class="input" type="text" placeholder="Type name or product description">
+                <button class="btn-danger-outline" (click)="getAllProducts()">Search</button>
                 <button class="btn-danger">+</button>
             </form>
         </div>
@@ -17,6 +17,19 @@
                     <th>VALUE</th>
                     <th>ACTIVE?</th>
                     <th>ACTIONS</th>
+                </tr>
+                <tr *ngFor="let product of products">
+                    <td>{{product.name}}</td>
+                    <td>{{product.description}}</td>
+                    <td>{{product.bar_code}}</td>
+                    <td>{{product.value}}</td>
+                    <td>{{product.active}}</td>
+                    <td>
+                        <a href="#">Edit</a>
+                        |
+                        <a href="#">Delete</a>
+                    </td>
+
                 </tr>
             </table>
         </div>
