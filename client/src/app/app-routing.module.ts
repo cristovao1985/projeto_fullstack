@@ -7,9 +7,9 @@ import { AppComponent } from './app.component';
 import { RouterService as AuthGuardSerice } from "../app/guards/router.service"
 
 const routes: Routes = [
-  { path: 'home', component: AppComponent, canActivate: [AuthGuardSerice] },
-  { path: 'products', component: ProductsComponent, canActivate: [AuthGuardSerice] },
-  { path: 'product', component: ProductComponent, canActivate: [AuthGuardSerice] },
+  { path: 'home', component: AppComponent, },
+  { path: 'products', component: ProductsComponent, },
+  { path: 'product/:id', component: ProductComponent, },
   { path: 'login', component: LoginComponent }
 ];
 

@@ -1,1 +1,39 @@
-<p>product works!</p>
+<div class="container">
+    <div class="card">
+        <form action="saveProduct()" onsubmit="saveProduct()">
+            <div *ngIf="productId > 0">
+                <h1>#{{product.id}}</h1>
+            </div>
+            <div>
+                <label for="name">Product Name</label><br>
+                <input name="name" [(ngModel)]="product.name" class="input" type="text" placeholder="Type product name"
+                    required>
+            </div>
+            <div>
+                <label for="description">Product Description</label><br>
+                <input name="description" [(ngModel)]="product.description" class="input" type="text"
+                    placeholder="Type product description">
+            </div>
+            <div>
+                <label for="bar_code">Product Bar Code</label><br>
+                <input name="bar_code" [(ngModel)]="product.bar_code" class="input" type="text"
+                    placeholder="Type product bar code number">
+            </div>
+            <div>
+                <label for="value">Product value</label><br>
+                <input name="value" [(ngModel)]="product.value" class="input" type="text"
+                    placeholder="Type product value">
+            </div>
+            <div>
+                <label for="active">Product active?</label><br>
+                <input name="active" [(ngModel)]="product.active" class="input" type="checkbox"
+                    placeholder="Type product value">
+            </div>
+            <div class="row">
+                <button class="btn-danger" name="action" routerLink="/products">Cancel</button>
+
+                <input type="submit" class="btn-danger-outline" name="action" value="Save" />
+            </div>
+        </form>
+    </div>
+</div>

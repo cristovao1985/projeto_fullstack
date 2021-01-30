@@ -16,6 +16,5 @@ export class AppComponent {
 
   ngOnInit() {
     this._authService.showMenuEmitter.subscribe((show: boolean) => this.showMenu = show)
-    console.log(this.showMenu)
   }
 }

@@ -27,7 +27,41 @@ export class ProductService {
   async insertProduct(product: Product): Promise<any> {
     return await fetch(`${this.baseUrl}/product`, {
       method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(product)
+    }).then(res => {
+      return res.json();
+    }).catch(erro => {
+      return erro
+    })
+  }
+
+  async getProductByID(id: number): Promise<Product> {
+    return await fetch(`${this.baseUrl}/product/${id}`, {
+      method: "GET",
+    }).then(res => {
+      return res.json();
+    }).catch(erro => {
+      return erro
+    })
+  }
+
+  async updateProduct(product: Product): Promise<any> {
+    return await fetch(`${this.baseUrl}/product`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(product)
+    }).then(res => {
+      return res.json();
+    }).catch(erro => {
+      return erro
+    })
+  }
+  async deleteProduct(id: number): Promise<any> {
+    return await fetch(`${this.baseUrl}/product/${id}`, {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+
     }).then(res => {
       return res.json();
     }).catch(erro => {

@@ -5,34 +5,37 @@
             <form>
                 <input class="input" type="text" placeholder="Type name or product description">
                 <button class="btn-danger-outline" (click)="getAllProducts()">Search</button>
-                <button class="btn-danger">+</button>
+                <button class="btn-danger" (click)="openProduct(0)">+</button>
             </form>
         </div>
         <div class="container">
             <table>
                 <tr>
-                    <th>NAME</th>
-                    <th>DESCRIPTION</th>
-                    <th>BAR_COD</th>
-                    <th>VALUE</th>
-                    <th>ACTIVE?</th>
-                    <th>ACTIONS</th>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Bar Code</th>
+                    <th>Value R$</th>
+                    <th>Active?</th>
+                    <th>Actions</th>
                 </tr>
                 <tr *ngFor="let product of products">
+                    <td>{{product.id}}</td>
                     <td>{{product.name}}</td>
                     <td>{{product.description}}</td>
                     <td>{{product.bar_code}}</td>
                     <td>{{product.value}}</td>
-                    <td>{{product.active}}</td>
+                    <td>{{product.active ? 'Yes': 'No'}}</td>
                     <td>
-                        <a href="#">Edit</a>
-                        |
-                        <a href="#">Delete</a>
+                        <button class="btn-danger-outline" (click)="openProduct(product.id)">Edit</button>
+                        <button class="btn-danger" (click)="deleteProduct(product.id)">Delete</button>
                     </td>
 
                 </tr>
             </table>
         </div>
     </div>
+
+
 
 </div>
